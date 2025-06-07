@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2900084726921838"
+     crossorigin="anonymous"></script>
 <script>
 	document.body.innerHTML=document.body.innerHTML.replace(/\u00AD/g, '');
 </script>
@@ -8,6 +10,7 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="google-adsense-account" content="ca-pub-2900084726921838">
+	
 <meta property="fb:pages" content="103630105150174" />
     <?php 
         if($post->ID<>""){
@@ -59,9 +62,10 @@
 
   gtag('config', 'UA-119129204-3');
 </script>
-	
+														  
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2900084726921838"
-     crossorigin="anonymous"></script>															  
+     crossorigin="anonymous"></script>	
+	
 </head>
 <?php $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";                                                            
    $sturl = explode('/', $actual_link);
